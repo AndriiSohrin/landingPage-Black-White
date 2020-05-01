@@ -1,0 +1,70 @@
+.nav {
+margin-bottom: 290px;
+  &-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+
+    a {
+      text-decoration: none;
+      /* Style for "Services" */
+      width: 53px;
+      height: 11px;
+      color: #989696;
+      font-family: Roboto;
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 17px;
+      /* Text style for "S, ervices" */
+      letter-spacing: 0.52px;
+    }
+  }
+}
+
+.title {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  //margin-top: 298px;
+
+  &-button {
+    margin: auto;
+    border: none;
+    padding: 0;
+    max-width: 188px;
+    max-height: 57px;
+  }
+ &-block{
+   margin-bottom: 43px;
+ }
+
+  &-block-first {
+    /* Style for "We build i" */
+    margin: 0 0 5px 0;
+    height: 41px;
+    color: #1d1e1f;
+    font-family: "Helvetica Neue LT Pro - Lt";
+    font-size: 44px;
+    font-weight: 400;
+    //line-height: 17px;
+    /* Text style for "We build i" */
+    letter-spacing: 0.88px;
+  }
+
+  &-block-second {
+    /* Style for "Just to be" */
+
+    height: 17px;
+    color: #898888;
+    font-family: "Merriweather - Light Italic";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 17px;
+    /* Text style for "J, ust to" */
+    letter-spacing: 0.48px;
+  }
+}
+
