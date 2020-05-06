@@ -1,0 +1,631 @@
+@charset "UTF-8";
+/*!
+ * Font Awesome Free 5.13.0 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ */
+.fa,
+.fas,
+.far,
+.fal,
+.fad,
+.fab,
+.twitter::after,
+.instagram::after {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+
+.twitter::after, .instagram::after {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+}
+
+/*!
+ * Font Awesome Free 5.13.0 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ */
+@font-face {
+  font-family: "Font Awesome 5 Free";
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url("../fonts/fontawesome/webfonts/fa-solid-900.eot");
+  src: url("../fonts/fontawesome/webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../fonts/fontawesome/webfonts/fa-solid-900.woff2") format("woff2"), url("../fonts/fontawesome/webfonts/fa-solid-900.woff") format("woff"), url("../fonts/fontawesome/webfonts/fa-solid-900.ttf") format("truetype"), url("../fonts/fontawesome/webfonts/fa-solid-900.svg#fontawesome") format("svg");
+}
+.fa,
+.fas {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+
+/*!
+ * Font Awesome Free 5.13.0 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ */
+@font-face {
+  font-family: "Font Awesome 5 Brands";
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("../fonts/fontawesome/webfonts/fa-brands-400.eot");
+  src: url("../fonts/fontawesome/webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("../fonts/fontawesome/webfonts/fa-brands-400.woff2") format("woff2"), url("../fonts/fontawesome/webfonts/fa-brands-400.woff") format("woff"), url("../fonts/fontawesome/webfonts/fa-brands-400.ttf") format("truetype"), url("../fonts/fontawesome/webfonts/fa-brands-400.svg#fontawesome") format("svg");
+}
+.fab, .twitter::after, .instagram::after {
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 400;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 621px;
+  margin: auto;
+}
+
+.nav {
+  margin-bottom: 290px;
+}
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+}
+.nav-menu a {
+  text-decoration: none;
+  /* Style for "Services" */
+  width: 53px;
+  height: 11px;
+  color: #989696;
+  font-family: "Roboto Regular", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+  /* Text style for "S, ervices" */
+  letter-spacing: 0.52px;
+}
+
+.title {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.title-button {
+  margin: auto;
+  border: none;
+  padding: 0;
+  max-width: 188px;
+  height: 57px;
+}
+.title-block {
+  margin-bottom: 43px;
+}
+.title-block-first {
+  /* Style for "We build i" */
+  margin: 0 0 5px 0;
+  height: 41px;
+  color: #1d1e1f;
+  font-family: "Helvetica LT Std Light", sans-serif;
+  font-size: 44px;
+  font-weight: 400;
+  /* Text style for "We build i" */
+  letter-spacing: 0.88px;
+}
+.title-block-second {
+  /* Style for "Just to be" */
+  height: 17px;
+  color: #898888;
+  font-family: "Merriweather Light Italic", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 17px;
+  /* Text style for "J, ust to" */
+  letter-spacing: 0.48px;
+}
+
+.section-1 {
+  max-width: 1920px;
+  background-color: #1d1d1d;
+  background-image: url("../img/section1/white.png"), url("../img/section1/black.png");
+  background-repeat: no-repeat;
+  background-position: 63.5% 101%;
+  background-size: contain;
+  margin: 430px auto 0 auto;
+}
+
+.about-us {
+  margin: auto;
+  max-width: 934px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: #fefefe;
+}
+.about-us h3 {
+  /* Style for "2011" */
+  color: #fefefe;
+  font-family: "Helvetica LT Std Light", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 26px;
+  /* Text style for "2011" */
+  letter-spacing: 0.96px;
+}
+.about-us p {
+  /* Style for "Lorem ipsu" */
+  padding-top: 27px;
+  color: #b7b7b7;
+  font-family: "Montserrat Regular", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 22px;
+  /* Text style for "L, orem ip" */
+  letter-spacing: 0.3px;
+}
+.about-us-left {
+  max-width: 386px;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  margin-top: 151px;
+}
+.about-us-left h3 {
+  text-align: right;
+}
+.about-us-right {
+  max-width: 386px;
+  text-align: justify;
+  margin-top: 272px;
+}
+.about-us-1 {
+  position: relative;
+}
+.about-us-2 {
+  margin-top: 255px;
+}
+.about-us-3 {
+  position: relative;
+}
+.about-us-4 {
+  margin-top: 353px;
+}
+
+.main-line {
+  width: 155px;
+  text-align: center;
+  position: relative;
+}
+
+.main-line:after {
+  content: url("../img/section1/2011.png");
+  position: absolute;
+  left: 42.5%;
+  bottom: 42.5%;
+}
+
+.main-line:before {
+  content: url("../img/section1/2014.png");
+  position: absolute;
+  left: 35.5%;
+  bottom: 59.5%;
+}
+
+.about-us-3:after {
+  content: url("../img/section1/2011.png");
+  position: absolute;
+  left: -24%;
+  bottom: 183%;
+}
+
+.about-us-3:before {
+  content: url("../img/section1/2011.png");
+  position: absolute;
+  right: 117.8%;
+  bottom: 81.5%;
+}
+
+.our-team {
+  display: flex;
+  justify-content: space-between;
+  max-width: 934px;
+  margin: auto;
+  padding: 82px 0 209px 0;
+  text-align: center;
+}
+
+.staff-1 {
+  margin-top: 270px;
+}
+.staff-1 h4 {
+  /* Style for "Justin Twi" */
+  color: #464646;
+  font-family: "Helvetica LT Std Light", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 26px;
+  /* Text style for "Justin Twi" */
+  letter-spacing: 0.48px;
+}
+.staff-1 p {
+  /* Style for "Designer &" */
+  color: #b3b3b3;
+  font-family: "Helvetica Neue LT Pro - Roman";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 26px;
+  /* Text style for "D, esigner" */
+  letter-spacing: 0.26px;
+}
+
+.staff-2 {
+  margin-top: 124px;
+}
+.staff-2 h4 {
+  /* Style for "Justin Twi" */
+  color: #464646;
+  font-family: "Helvetica LT Std Light", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 26px;
+  /* Text style for "Justin Twi" */
+  letter-spacing: 0.48px;
+}
+.staff-2 p {
+  /* Style for "Designer &" */
+  color: #b3b3b3;
+  font-family: "Helvetica Neue LT Pro - Roman";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 26px;
+  /* Text style for "D, esigner" */
+  letter-spacing: 0.26px;
+}
+
+.staff-3 {
+  margin-top: 270px;
+}
+.staff-3 h4 {
+  /* Style for "Justin Twi" */
+  color: #464646;
+  font-family: "Helvetica LT Std Light", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 26px;
+  /* Text style for "Justin Twi" */
+  letter-spacing: 0.48px;
+}
+.staff-3 p {
+  /* Style for "Designer &" */
+  color: #b3b3b3;
+  font-family: "Helvetica Neue LT Pro - Roman";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 26px;
+  /* Text style for "D, esigner" */
+  letter-spacing: 0.26px;
+}
+
+.our-team-title h3 {
+  color: #1d1e1f;
+  font-family: "Helvetica LT Std Light", sans-serif;
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.68px;
+}
+.our-team-title p {
+  color: #898888;
+  font-family: "Merriweather Light Italic", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.32px;
+}
+
+.instagram::after {
+  content: "";
+  padding-right: 5px;
+  font-size: 21px;
+  color: #5F5F5F;
+}
+
+.twitter::after {
+  content: "";
+  padding-left: 5px;
+  font-size: 21px;
+  color: #5F5F5F;
+}
+
+.twitter:hover::after {
+  color: black;
+}
+
+.instagram:hover::after {
+  color: black;
+}
+
+.social {
+  position: relative;
+  bottom: 60px;
+  opacity: 0;
+}
+
+.staff-1:hover .social {
+  bottom: 0;
+  transition: 0.6s;
+  opacity: 1;
+}
+
+.staff-2:hover .social {
+  bottom: 0;
+  transition: 0.6s;
+  opacity: 1;
+}
+
+.staff-3:hover .social {
+  bottom: 0;
+  transition: 0.6s;
+  opacity: 1;
+}
+
+.section-3 {
+  background-image: url("../img/service/Services_Background.png");
+  background-repeat: no-repeat;
+  background-position: center 2%;
+}
+
+.service {
+  max-width: 934px;
+  margin: 218px auto 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.service img {
+  position: relative;
+}
+
+.img-circle-1, .img-circle-2, .img-circle-3 {
+  position: relative;
+}
+
+.img-circle-1:before {
+  content: url("../img/service/LINE_GRAPH.png");
+  position: absolute;
+  right: 40%;
+  top: 38%;
+}
+
+.img-circle-2:before {
+  content: url("../img/service/HEART.png");
+  position: absolute;
+  right: 38%;
+  top: 37%;
+}
+
+.img-circle-3:before {
+  content: url("../img/service/CLOUD_/_UPLOAD.png");
+  position: absolute;
+  right: 40%;
+  top: 33%;
+}
+
+.service-title {
+  text-align: center;
+  padding-top: 244px;
+}
+.service-title h3 {
+  /* Style for "We provide" */
+  color: #ffffff;
+  font-family: "Helvetica LT Std Light", sans-serif;
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 26px;
+  /* Text style for "W, e provi" */
+  letter-spacing: 0.68px;
+}
+.service-title p {
+  /* Style for "Maybe not" */
+  color: #777777;
+  font-family: "Merriweather Light Italic", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  /* Text style for "Maybe not" */
+  letter-spacing: 0.32px;
+}
+
+.service-text {
+  margin-top: 44px;
+}
+.service-text h4 {
+  /* Style for "We provide" */
+  color: #ffffff;
+  font-family: "Helvetica LT Std Light", sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 26px;
+  /* Text style for "W, e provi" */
+  letter-spacing: 0.52px;
+  padding-bottom: 36px;
+}
+.service-text p {
+  /* Style for "Aenean nis" */
+  color: #383838;
+  font-family: "Helvetica LT Std Light", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  /* Text style for "Aenean nis" */
+  letter-spacing: 0.36px;
+}
+
+.service-btn {
+  background-image: url("../img/service/bg-text.png");
+  background-repeat: no-repeat;
+  background-position: 13% 7%;
+  margin: auto;
+  padding: 481px 0 281px 0;
+  width: 934px;
+  text-align: center;
+  /* Style for "VISIT OUR" */
+  color: #000000;
+  font-family: "Helvetica LT Std Light", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-transform: uppercase;
+  /* Text style for "VISIT OUR" */
+  letter-spacing: 0.32px;
+}
+
+.service-btn button {
+  opacity: 1;
+  width: 217px;
+  height: 64px;
+  background: #fefefe;
+  cursor: pointer;
+}
+.service-btn button a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.section-4 {
+  background-color: #898888;
+  background-image: url("../img/contact/Contact_Us_Background.png");
+  background-position: center center;
+}
+
+.section-4-contact {
+  max-width: 934px;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 230px;
+}
+
+.contact-title {
+  padding-bottom: 64px;
+}
+.contact-title h3 {
+  /* Style for "Contac Us" */
+  color: #1d1e1f;
+  font-family: "Helvetica LT Std Light", sans-serif;
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 26px;
+  /* Text style for "C, ontac U" */
+  letter-spacing: 0.68px;
+}
+.contact-title p {
+  /* Style for "We know wh" */
+  color: #898888;
+  font-family: "Merriweather Light Italic", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  /* Text style for "We know wh" */
+  letter-spacing: 0.32px;
+}
+
+.contact-form input, button {
+  width: 100%;
+  margin-bottom: 18px;
+  height: 52px;
+  text-align: center;
+}
+
+.contact-form input:focus {
+  outline: none;
+  border-color: black;
+}
+
+.contact-form textarea {
+  width: 100%;
+  margin-bottom: 18px;
+  height: 195px;
+  resize: none;
+}
+.contact-form textarea:focus {
+  outline: none;
+  border-color: black;
+}
+
+.contact-form button {
+  background-color: black;
+  color: #fefefe;
+  font-family: "Helvetica LT Std Light", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.34px;
+}
+
+.contact {
+  padding-bottom: 153px;
+  display: flex;
+  justify-content: space-between;
+  color: #898888;
+  font-family: "Helvetica LT Std Light", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.24px;
+}
+.contact div {
+  width: 33.33%;
+}
+
+.contact a {
+  text-decoration: none;
+  color: #898888;
+}
+.contact a:hover {
+  color: black;
+  font-size: 110%;
+}
+.contact-phone {
+  position: relative;
+}
+.contact-address {
+  position: relative;
+}
+.contact-mail {
+  position: relative;
+}
+.contact-phone:after {
+  content: url("../img/contact/phone.png");
+  position: absolute;
+  bottom: 70%;
+  right: 48%;
+}
+.contact-address:after {
+  content: url("../img/contact/addres.png");
+  position: absolute;
+  bottom: 70%;
+  right: 48%;
+}
+.contact-mail:after {
+  content: url("../img/contact/mail.png");
+  position: absolute;
+  bottom: 70%;
+  right: 48%;
+}
+
