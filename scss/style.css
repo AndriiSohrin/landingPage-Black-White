@@ -154,7 +154,6 @@
   max-width: 934px;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
   color: #fefefe;
 }
 .about-us h3 {
@@ -629,3 +628,4 @@
   right: 48%;
 }
 
+/*# sourceMappingURL=style.css.map */
