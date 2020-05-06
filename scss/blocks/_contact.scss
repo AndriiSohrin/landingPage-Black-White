@@ -1,0 +1,143 @@
+@import "../mixin";
+//@import "../../fonts/fontawesome/scss/fontawesome.scss";
+//@import "../../fonts/fontawesome/scss/solid.scss";
+//@import "../../fonts/fontawesome/scss/brands.scss";
+//@import "../../fonts/fontawesome/scss/variables.scss";
+
+.section-4 {
+  background-color: #898888;
+  background-image: url("../img/contact/Contact_Us_Background.png");
+  background-position: center center;
+
+}
+
+.section-4-contact {
+  max-width: 934px;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 230px;
+}
+
+.contact-title {
+  padding-bottom: 64px;
+
+  & h3 {
+    /* Style for "Contac Us" */
+
+    color: #1d1e1f;
+    @include mainFonts;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 26px;
+    /* Text style for "C, ontac U" */
+    letter-spacing: 0.68px;
+  }
+
+  & p {
+    /* Style for "We know wh" */
+
+    color: #898888;
+    @include secondFonts;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    /* Text style for "We know wh" */
+    letter-spacing: 0.32px;
+  }
+}
+
+.contact-form input, button {
+  width: 100%;
+  margin-bottom: 18px;
+  height: 52px;
+  text-align: center;
+}
+
+.contact-form input:focus {
+  outline: none;
+  border-color: black;
+}
+
+.contact-form textarea {
+  width: 100%;
+  margin-bottom: 18px;
+  height: 195px;
+  resize: none;
+
+  &:focus {
+    outline: none;
+    border-color: black;
+  }
+}
+
+.contact-form button {
+  background-color: black;
+  color: #fefefe;
+  @include mainFonts;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 26px;
+
+  letter-spacing: 0.34px;
+}
+
+.contact {
+  padding-bottom: 153px;
+  display: flex;
+  justify-content: space-between;
+  color: #898888;
+  @include mainFonts;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.24px;
+
+  & div {
+    width: 33.33%;
+  }
+}
+
+.contact {
+  & a {
+    text-decoration: none;
+    color: #898888;
+  }
+  & a:hover{
+    color: black;
+    font-size: 110%;
+  }
+
+  &-phone {
+    position: relative;
+  }
+
+  &-address {
+    position: relative;
+  }
+
+  &-mail {
+    position: relative;
+  }
+
+  &-phone:after {
+    content: url("../img/contact/phone.png");
+    position: absolute;
+    bottom: 70%;
+    right: 48%;
+  }
+
+  &-address:after {
+    content: url("../img/contact/addres.png");
+    position: absolute;
+    bottom: 70%;
+    right: 48%;
+  }
+
+  &-mail:after {
+    content: url("../img/contact/mail.png");
+    position: absolute;
+    bottom: 70%;
+    right: 48%;
+  }
+
+}

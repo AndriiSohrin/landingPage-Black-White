@@ -1,3 +1,5 @@
+@import "../mixin";
+
 .nav {
 margin-bottom: 290px;
   &-menu {
@@ -13,7 +15,7 @@ margin-bottom: 290px;
       width: 53px;
       height: 11px;
       color: #989696;
-      font-family: Roboto;
+      @include robotFonts;
       font-size: 13px;
       font-weight: 400;
       line-height: 17px;
@@ -35,7 +37,7 @@ margin-bottom: 290px;
     border: none;
     padding: 0;
     max-width: 188px;
-    max-height: 57px;
+    height: 57px;
   }
  &-block{
    margin-bottom: 43px;
@@ -46,7 +48,7 @@ margin-bottom: 290px;
     margin: 0 0 5px 0;
     height: 41px;
     color: #1d1e1f;
-    font-family: "Helvetica Neue LT Pro - Lt";
+    @include mainFonts;
     font-size: 44px;
     font-weight: 400;
     //line-height: 17px;
@@ -59,7 +61,7 @@ margin-bottom: 290px;
 
     height: 17px;
     color: #898888;
-    font-family: "Merriweather - Light Italic";
+    @include secondFonts;
     font-size: 16px;
     font-weight: 400;
     line-height: 17px;

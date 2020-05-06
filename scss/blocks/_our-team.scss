@@ -1,0 +1,120 @@
+@import "../mixin";
+//@import "../../fonts/fontawesome/scss/fontawesome.scss";
+//@import "../../fonts/fontawesome/scss/solid.scss";
+//@import "../../fonts/fontawesome/scss/brands.scss/";
+
+.our-team {
+  display: flex;
+  justify-content: space-between;
+  max-width: 934px;
+  margin: auto;
+  padding: 82px 0 209px 0;
+  text-align: center;
+}
+
+.staff-1 {
+  margin-top: 270px;
+
+  h4 {
+    @include staffTitle;
+  }
+
+  p {
+    @include staffText;
+  }
+}
+
+.staff-2 {
+  margin-top: 124px;
+
+  h4 {
+    @include staffTitle;
+  }
+
+  p {
+    @include staffText;
+  }
+}
+
+.staff-3 {
+  margin-top: 270px;
+
+  h4 {
+    @include staffTitle;
+  }
+
+  p {
+    @include staffText;
+  }
+}
+
+.our-team-title {
+  h3 {
+    color: #1d1e1f;
+    @include mainFonts;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.68px;
+  }
+
+  p {
+    color: #898888;
+    @include secondFonts;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.32px;
+  }
+}
+
+.instagram::after {
+  @extend %fa-icon;
+  @extend .fab;
+  content: fa-content($fa-var-instagram);
+  padding-right: 5px;
+  font-size: 21px;
+  color: #5F5F5F;
+}
+
+.twitter::after {
+  @extend %fa-icon;
+  @extend .fab;
+  content: fa-content($fa-var-twitter);
+  padding-left: 5px;
+  font-size: 21px;
+  color: #5F5F5F;
+}
+
+.twitter:hover::after {
+  color: black;
+}
+
+.instagram:hover::after {
+  color: black;
+}
+
+.social {
+  position: relative;
+  bottom: 60px;
+  opacity: 0;
+}
+
+.staff-1:hover .social {
+  bottom: 0;
+  transition: 0.6s;
+  opacity: 1;
+}
+
+.staff-2:hover .social {
+  bottom: 0;
+  transition: 0.6s;
+  opacity: 1;
+}
+
+.staff-3:hover .social {
+  bottom: 0;
+  transition: 0.6s;
+  opacity: 1;
+}
+

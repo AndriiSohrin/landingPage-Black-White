@@ -1,0 +1,143 @@
+@import "../mixin";
+
+.section-3 {
+  background-image: url('../img/service/Services_Background.png');
+  background-repeat: no-repeat;
+  background-position: center 2%;
+
+
+}
+
+.service {
+  max-width: 934px;
+  margin: 218px auto 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+
+  & img {
+    position: relative;
+  }
+}
+
+.img-circle-1, .img-circle-2, .img-circle-3 {
+  position: relative;
+
+}
+
+.img-circle-1:before {
+  content: url("../img/service/LINE_GRAPH.png");
+  position: absolute;
+  right: 40%;
+  top: 38%;
+}
+
+.img-circle-2:before {
+  content: url("../img/service/HEART.png");
+  position: absolute;
+  right: 38%;
+  top: 37%;
+}
+
+.img-circle-3:before {
+  content: url("../img/service/CLOUD_/_UPLOAD.png");
+  position: absolute;
+  right: 40%;
+  top: 33%;
+}
+
+
+.service-title {
+  text-align: center;
+  padding-top: 244px;
+
+  & h3 {
+    /* Style for "We provide" */
+
+    color: #ffffff;
+    @include mainFonts;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 26px;
+    /* Text style for "W, e provi" */
+    letter-spacing: 0.68px;
+  }
+
+  & p {
+    /* Style for "Maybe not" */
+    color: #777777;
+    @include secondFonts;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    /* Text style for "Maybe not" */
+    letter-spacing: 0.32px;
+  }
+}
+
+.service-text {
+  margin-top: 44px;
+
+  & h4 {
+    /* Style for "We provide" */
+
+    color: #ffffff;
+    @include mainFonts;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 26px;
+    /* Text style for "W, e provi" */
+    letter-spacing: 0.52px;
+    padding-bottom: 36px;
+  }
+
+  & p {
+    /* Style for "Aenean nis" */
+
+    color: #383838;
+    @include mainFonts;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    /* Text style for "Aenean nis" */
+    letter-spacing: 0.36px;
+  }
+;
+}
+
+.service-btn {
+  background-image: url('../img/service/bg-text.png');
+  background-repeat: no-repeat;
+  background-position: 13% 7%;
+  //opacity: 0.43;
+
+  margin: auto;
+  padding: 481px 0 281px 0;
+  width: 934px;
+  text-align: center;
+  /* Style for "VISIT OUR" */
+  color: #000000;
+  @include mainFonts;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-transform: uppercase;
+  /* Text style for "VISIT OUR" */
+  letter-spacing: 0.32px;
+
+}
+
+.service-btn button {
+  opacity: 1.0;
+  width: 217px;
+  height: 64px;
+  background: #fefefe;
+  cursor: pointer;
+
+  & a {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
