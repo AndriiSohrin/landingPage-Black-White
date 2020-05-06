@@ -1,8 +1,5 @@
 @charset "UTF-8";
-/*!
- * Font Awesome Free 5.13.0 by @fontawesome - https://fontawesome.com
- * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
- */
+/*========================== Font Awesome icon ==================================*/
 .fa,
 .fas,
 .far,
@@ -30,10 +27,6 @@
   line-height: 1;
 }
 
-/*!
- * Font Awesome Free 5.13.0 by @fontawesome - https://fontawesome.com
- * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
- */
 @font-face {
   font-family: "Font Awesome 5 Free";
   font-style: normal;
@@ -48,10 +41,6 @@
   font-weight: 900;
 }
 
-/*!
- * Font Awesome Free 5.13.0 by @fontawesome - https://fontawesome.com
- * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
- */
 @font-face {
   font-family: "Font Awesome 5 Brands";
   font-style: normal;
@@ -65,6 +54,8 @@
   font-weight: 400;
 }
 
+/* ========================== Fonts setting =======================================*/
+/*========================= basic grid setting ==================================*/
 * {
   box-sizing: border-box;
   padding: 0;
@@ -76,6 +67,7 @@
   margin: auto;
 }
 
+/*========================== Header setting =====================================*/
 .nav {
   margin-bottom: 290px;
 }
@@ -88,7 +80,6 @@
 }
 .nav-menu a {
   text-decoration: none;
-  /* Style for "Services" */
   width: 53px;
   height: 11px;
   color: #989696;
@@ -96,7 +87,6 @@
   font-size: 13px;
   font-weight: 400;
   line-height: 17px;
-  /* Text style for "S, ervices" */
   letter-spacing: 0.52px;
 }
 
@@ -117,28 +107,25 @@
   margin-bottom: 43px;
 }
 .title-block-first {
-  /* Style for "We build i" */
   margin: 0 0 5px 0;
   height: 41px;
   color: #1d1e1f;
   font-family: "Helvetica LT Std Light", sans-serif;
   font-size: 44px;
   font-weight: 400;
-  /* Text style for "We build i" */
   letter-spacing: 0.88px;
 }
 .title-block-second {
-  /* Style for "Just to be" */
   height: 17px;
   color: #898888;
   font-family: "Merriweather Light Italic", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 17px;
-  /* Text style for "J, ust to" */
   letter-spacing: 0.48px;
 }
 
+/*========================= about us section ====================================*/
 .section-1 {
   max-width: 1920px;
   background-color: #1d1d1d;
@@ -157,24 +144,20 @@
   color: #fefefe;
 }
 .about-us h3 {
-  /* Style for "2011" */
   color: #fefefe;
   font-family: "Helvetica LT Std Light", sans-serif;
   font-size: 48px;
   font-weight: 400;
   line-height: 26px;
-  /* Text style for "2011" */
   letter-spacing: 0.96px;
 }
 .about-us p {
-  /* Style for "Lorem ipsu" */
   padding-top: 27px;
   color: #b7b7b7;
   font-family: "Montserrat Regular", sans-serif;
   font-size: 15px;
   font-weight: 300;
   line-height: 22px;
-  /* Text style for "L, orem ip" */
   letter-spacing: 0.3px;
 }
 .about-us-left {
@@ -239,6 +222,7 @@
   bottom: 81.5%;
 }
 
+/*========================= our-team section ====================================*/
 .our-team {
   display: flex;
   justify-content: space-between;
@@ -252,23 +236,19 @@
   margin-top: 270px;
 }
 .staff-1 h4 {
-  /* Style for "Justin Twi" */
   color: #464646;
   font-family: "Helvetica LT Std Light", sans-serif;
   font-size: 24px;
   font-weight: 400;
   line-height: 26px;
-  /* Text style for "Justin Twi" */
   letter-spacing: 0.48px;
 }
 .staff-1 p {
-  /* Style for "Designer &" */
   color: #b3b3b3;
-  font-family: "Helvetica Neue LT Pro - Roman";
+  font-family: "Helvetica LT Std Light", sans-serif;
   font-size: 13px;
   font-weight: 400;
   line-height: 26px;
-  /* Text style for "D, esigner" */
   letter-spacing: 0.26px;
 }
 
@@ -276,23 +256,19 @@
   margin-top: 124px;
 }
 .staff-2 h4 {
-  /* Style for "Justin Twi" */
   color: #464646;
   font-family: "Helvetica LT Std Light", sans-serif;
   font-size: 24px;
   font-weight: 400;
   line-height: 26px;
-  /* Text style for "Justin Twi" */
   letter-spacing: 0.48px;
 }
 .staff-2 p {
-  /* Style for "Designer &" */
   color: #b3b3b3;
-  font-family: "Helvetica Neue LT Pro - Roman";
+  font-family: "Helvetica LT Std Light", sans-serif;
   font-size: 13px;
   font-weight: 400;
   line-height: 26px;
-  /* Text style for "D, esigner" */
   letter-spacing: 0.26px;
 }
 
@@ -300,23 +276,19 @@
   margin-top: 270px;
 }
 .staff-3 h4 {
-  /* Style for "Justin Twi" */
   color: #464646;
   font-family: "Helvetica LT Std Light", sans-serif;
   font-size: 24px;
   font-weight: 400;
   line-height: 26px;
-  /* Text style for "Justin Twi" */
   letter-spacing: 0.48px;
 }
 .staff-3 p {
-  /* Style for "Designer &" */
   color: #b3b3b3;
-  font-family: "Helvetica Neue LT Pro - Roman";
+  font-family: "Helvetica LT Std Light", sans-serif;
   font-size: 13px;
   font-weight: 400;
   line-height: 26px;
-  /* Text style for "D, esigner" */
   letter-spacing: 0.26px;
 }
 
@@ -383,6 +355,7 @@
   opacity: 1;
 }
 
+/*========================= service section ======================================*/
 .section-3 {
   background-image: url("../img/service/Services_Background.png");
   background-repeat: no-repeat;
@@ -431,23 +404,19 @@
   padding-top: 244px;
 }
 .service-title h3 {
-  /* Style for "We provide" */
   color: #ffffff;
   font-family: "Helvetica LT Std Light", sans-serif;
   font-size: 34px;
   font-weight: 400;
   line-height: 26px;
-  /* Text style for "W, e provi" */
   letter-spacing: 0.68px;
 }
 .service-title p {
-  /* Style for "Maybe not" */
   color: #777777;
   font-family: "Merriweather Light Italic", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
-  /* Text style for "Maybe not" */
   letter-spacing: 0.32px;
 }
 
@@ -455,43 +424,37 @@
   margin-top: 44px;
 }
 .service-text h4 {
-  /* Style for "We provide" */
   color: #ffffff;
   font-family: "Helvetica LT Std Light", sans-serif;
   font-size: 26px;
   font-weight: 400;
   line-height: 26px;
-  /* Text style for "W, e provi" */
   letter-spacing: 0.52px;
   padding-bottom: 36px;
 }
 .service-text p {
-  /* Style for "Aenean nis" */
   color: #383838;
   font-family: "Helvetica LT Std Light", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 23px;
-  /* Text style for "Aenean nis" */
   letter-spacing: 0.36px;
 }
 
 .service-btn {
+  width: 934px;
   background-image: url("../img/service/bg-text.png");
   background-repeat: no-repeat;
   background-position: 13% 7%;
+  color: #000000;
   margin: auto;
   padding: 481px 0 281px 0;
-  width: 934px;
   text-align: center;
-  /* Style for "VISIT OUR" */
-  color: #000000;
   font-family: "Helvetica LT Std Light", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
   text-transform: uppercase;
-  /* Text style for "VISIT OUR" */
   letter-spacing: 0.32px;
 }
 
@@ -507,6 +470,7 @@
   color: inherit;
 }
 
+/*========================= contact section ======================================*/
 .section-4 {
   background-color: #898888;
   background-image: url("../img/contact/Contact_Us_Background.png");
@@ -524,23 +488,19 @@
   padding-bottom: 64px;
 }
 .contact-title h3 {
-  /* Style for "Contac Us" */
   color: #1d1e1f;
   font-family: "Helvetica LT Std Light", sans-serif;
   font-size: 34px;
   font-weight: 400;
   line-height: 26px;
-  /* Text style for "C, ontac U" */
   letter-spacing: 0.68px;
 }
 .contact-title p {
-  /* Style for "We know wh" */
   color: #898888;
   font-family: "Merriweather Light Italic", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
-  /* Text style for "We know wh" */
   letter-spacing: 0.32px;
 }
 

@@ -1,8 +1,4 @@
 @import "../mixin";
-//@import "../../fonts/fontawesome/scss/fontawesome.scss";
-//@import "../../fonts/fontawesome/scss/solid.scss";
-//@import "../../fonts/fontawesome/scss/brands.scss";
-//@import "../../fonts/fontawesome/scss/variables.scss";
 
 .section-4 {
   background-color: #898888;
@@ -22,26 +18,20 @@
   padding-bottom: 64px;
 
   & h3 {
-    /* Style for "Contac Us" */
-
     color: #1d1e1f;
     @include mainFonts;
     font-size: 34px;
     font-weight: 400;
     line-height: 26px;
-    /* Text style for "C, ontac U" */
     letter-spacing: 0.68px;
   }
 
   & p {
-    /* Style for "We know wh" */
-
     color: #898888;
     @include secondFonts;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    /* Text style for "We know wh" */
     letter-spacing: 0.32px;
   }
 }

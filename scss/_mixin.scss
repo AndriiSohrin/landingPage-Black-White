@@ -15,23 +15,19 @@
 }
 
 @mixin staffTitle {
-  /* Style for "Justin Twi" */
   color: #464646;
   @include mainFonts;
   font-size: 24px;
   font-weight: 400;
   line-height: 26px;
-  /* Text style for "Justin Twi" */
   letter-spacing: 0.48px;
 }
 
 @mixin staffText {
-  /* Style for "Designer &" */
   color: #b3b3b3;
-  font-family: "Helvetica Neue LT Pro - Roman";
+  font-family: 'Helvetica LT Std Light', sans-serif;
   font-size: 13px;
   font-weight: 400;
   line-height: 26px;
-  /* Text style for "D, esigner" */
   letter-spacing: 0.26px;
 }

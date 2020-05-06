@@ -16,31 +16,25 @@
   max-width: 934px;
   display: flex;
   justify-content: space-between;
-  //flex-wrap: wrap;
   color: #fefefe;
 
 
   h3 {
-    /* Style for "2011" */
-
     color: #fefefe;
     @include mainFonts;
     font-size: 48px;
     font-weight: 400;
     line-height: 26px;
-    /* Text style for "2011" */
     letter-spacing: 0.96px;
   }
 
   p {
-    /* Style for "Lorem ipsu" */
     padding-top: 27px;
     color: #b7b7b7;
     @include montserratFonts;
     font-size: 15px;
     font-weight: 300;
     line-height: 22px;
-    /* Text style for "L, orem ip" */
     letter-spacing: 0.3px;
   }
 

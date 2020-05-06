@@ -53,25 +53,20 @@
   padding-top: 244px;
 
   & h3 {
-    /* Style for "We provide" */
-
     color: #ffffff;
     @include mainFonts;
     font-size: 34px;
     font-weight: 400;
     line-height: 26px;
-    /* Text style for "W, e provi" */
     letter-spacing: 0.68px;
   }
 
   & p {
-    /* Style for "Maybe not" */
     color: #777777;
     @include secondFonts;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    /* Text style for "Maybe not" */
     letter-spacing: 0.32px;
   }
 }
@@ -80,52 +75,41 @@
   margin-top: 44px;
 
   & h4 {
-    /* Style for "We provide" */
-
     color: #ffffff;
     @include mainFonts;
     font-size: 26px;
     font-weight: 400;
     line-height: 26px;
-    /* Text style for "W, e provi" */
     letter-spacing: 0.52px;
     padding-bottom: 36px;
   }
 
   & p {
-    /* Style for "Aenean nis" */
-
     color: #383838;
     @include mainFonts;
     font-size: 18px;
     font-weight: 400;
     line-height: 23px;
-    /* Text style for "Aenean nis" */
     letter-spacing: 0.36px;
   }
 ;
 }
 
 .service-btn {
+  width: 934px;
   background-image: url('../img/service/bg-text.png');
   background-repeat: no-repeat;
   background-position: 13% 7%;
-  //opacity: 0.43;
-
+  color: #000000;
   margin: auto;
   padding: 481px 0 281px 0;
-  width: 934px;
   text-align: center;
-  /* Style for "VISIT OUR" */
-  color: #000000;
   @include mainFonts;
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
   text-transform: uppercase;
-  /* Text style for "VISIT OUR" */
   letter-spacing: 0.32px;
-
 }
 
 .service-btn button {

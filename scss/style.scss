@@ -1,29 +1,36 @@
+/*========================== Font Awesome icon ==================================*/
 
 @import "../fonts/fontawesome/scss/fontawesome.scss";
 @import "../fonts/fontawesome/scss/solid.scss";
 @import "../fonts/fontawesome/scss/brands.scss";
-//базовые настройки сетки
-@import 'grid';
 
-//Шапка сайта
-@import "blocks/nav";
+/* ========================== Fonts setting =======================================*/
 
-// шрифты
 @import "mixin";
 
-//about us
+/*========================= basic grid setting ==================================*/
+
+@import 'grid';
+
+/*========================== Header setting =====================================*/
+
+@import "blocks/nav";
+
+/*========================= about us section ====================================*/
+
 @import "blocks/about-us";
 
-//our-team
+/*========================= our-team section ====================================*/
+
 @import "blocks/our-team";
 
-//service
+/*========================= service section ======================================*/
 
 @import "blocks/service";
 
-//contact
+/*========================= contact section ======================================*/
 
 @import "blocks/contact";
 
-//====================================
+
 
